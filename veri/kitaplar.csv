@@ -1,0 +1,484 @@
+kitap_id,ad,yazar,yayin_yili,sayfa,tur
+1,Gizli Ada,Murat Koç,1974,742,Fantastik
+2,Yalnız Harita Efsanesi,Hülya Erdoğan,1973,347,Bilim
+3,Yalnız Rüzgar,Ali Aydın,2014,112,Polisiye
+4,Mavi Mektup Sırrı,Leyla Yıldız,1971,830,Deneme
+5,Sessiz Dağ,Yakup Koç,1971,681,Şiir
+6,Unutulmuş Hikâye Günlükleri,Mehmet Aslan,1996,94,Polisiye
+7,Beyaz Dağ,Leyla Taş,2016,188,Fantastik
+8,Sessiz Ada,Selim Polat,1981,285,Roman
+9,Gizli Hikâye,Ali Çelik,1989,569,Roman
+10,Kayıp Yolculuk Masalı,Zeynep Kılıç,1996,408,Bilim
+11,Unutulmuş Hikâye,Selim Aydın,1980,391,Polisiye
+12,Derin Deniz,Orhan Kaya,2013,700,Bilim
+13,Son Hikâye,Mehmet Kurt,1976,651,Bilim
+14,Eski Bahçe,Sevgi Kaya,2020,744,Bilim
+15,Kırık Kapı,Hasan Aydın,2016,194,Fantastik
+16,Derin Dağ,Kemal Demir,1960,104,Polisiye
+17,Uzak Ada,Emine Kılıç,1968,187,Tarih
+18,Son Harita,Ayşe Güneş,1986,548,Şiir
+19,Mavi Harita Masalı,Zeynep Koç,1970,658,Polisiye
+20,Sonsuz Mektup,Mehmet Çelik,1981,573,Biyografi
+21,Karanlık Kapı,Kemal Kurt,2005,592,Deneme
+22,Mavi Gece,Mustafa Kılıç,1976,622,Polisiye
+23,Beyaz Şehir Günlükleri,Selim Arslan,2023,105,Bilim
+24,Sessiz Kapı,Sevgi Yılmaz,1962,114,Roman
+25,Beyaz Harita,Hasan Kurt,1996,366,Şiir
+26,Derin Kapı ve Sonrası,Mustafa Şahin,2015,215,Fantastik
+27,Beyaz Bahçe Günlükleri,Melek Kurt,1962,401,Şiir
+28,Gizli Zaman,Ahmet Erdoğan,1962,624,Deneme
+29,Mavi Şehir Masalı,Hülya Kurt,1994,589,Tarih
+30,Sonsuz Gölge Masalı,Yakup Bulut,2021,79,Şiir
+31,Son Zaman,Murat Erdoğan,1963,427,Şiir
+32,Unutulmuş Yolculuk,Melek Çetin,1986,506,Roman
+33,Sonsuz Yolculuk,Yakup Bulut,1969,417,Deneme
+34,Son Yolculuk Günlükleri,Selim Çelik,1979,878,Fantastik
+35,Mavi Zaman,Murat Polat,1998,449,Şiir
+36,Gizli Dağ Masalı,Fatma Şahin,1988,893,Deneme
+37,Gizli Nehir,Zeynep Demir,1991,656,Polisiye
+38,Gizli Bahçe,Melek Demir,2025,115,Fantastik
+39,Eski Harita Masalı,Elif Çetin,1986,749,Roman
+40,Küçük Mektup,Emine Koç,1971,516,Biyografi
+41,Son Mektup Masalı,Nazlı Doğan,1979,423,Polisiye
+42,Sessiz Deniz ve Sonrası,Zeynep Özdemir,1985,649,Deneme
+43,Son Rüzgar ve Sonrası,Mustafa Şahin,1962,691,Fantastik
+44,Son Yolculuk Masalı,Leyla Çelik,2010,486,Tarih
+45,Sessiz Harita,Yakup Yıldız,2018,103,Tarih
+46,Mavi Yolculuk,Hasan Doğan,1974,849,Deneme
+47,Sonsuz Hikâye Sırrı,Hülya Kılıç,1969,707,Deneme
+48,Mavi Mektup,Hasan Polat,1984,257,Biyografi
+49,Uzak Zaman,Elif Bulut,2010,805,Roman
+50,Sessiz Gece Günlükleri,Zeynep Polat,1973,183,Deneme
+51,Son Ada Masalı,Hasan Erdoğan,2022,423,Şiir
+52,Unutulmuş Kapı Masalı,Fatma Çetin,2010,225,Fantastik
+53,Kırık Dağ Sırrı,Fatma Özdemir,1991,413,Roman
+54,Uzak Deniz,Emine Kurt,2009,463,Şiir
+55,Karanlık Gölge Masalı,Murat Kaya,2012,250,Fantastik
+56,Eski Gölge,Kemal Çelik,1978,885,Deneme
+57,Derin Şehir,Ali Şahin,1966,605,Roman
+58,Mavi Nehir Sırrı,Nazlı Polat,1993,524,Polisiye
+59,Beyaz Dağ Efsanesi,Ayşe Polat,2009,146,Bilim
+60,Kırık Mektup Günlükleri,Hasan Şahin,2015,508,Fantastik
+61,Uzak Gece ve Sonrası,Ali Koç,1963,197,Biyografi
+62,Beyaz Zaman,Zeynep Kaya,1996,104,Biyografi
+63,Eski Harita Efsanesi,Hülya Kılıç,1998,823,Şiir
+64,Unutulmuş Nehir Efsanesi,Elif Erdoğan,1958,123,Deneme
+65,Karanlık Mektup Günlükleri,Hasan Polat,1978,826,Polisiye
+66,Yalnız Yolculuk,Mustafa Kurt,2010,722,Deneme
+67,Mavi Hikâye,Ayşe Kaya,1995,603,Deneme
+68,Kayıp Şehir,Murat Kurt,1994,524,Biyografi
+69,Beyaz Gece Efsanesi,Emine Koç,2002,379,Roman
+70,Sessiz Şehir Sırrı,Nazlı Aslan,2015,265,Roman
+71,Kayıp Hikâye,Elif Güneş,1999,98,Roman
+72,Derin Kapı,Sevgi Şahin,1958,556,Roman
+73,Karanlık Nehir,Emine Aslan,1976,615,Bilim
+74,Kırık Nehir,Orhan Erdoğan,1990,189,Fantastik
+75,Mavi Ada,Hasan Kurt,1960,410,Tarih
+76,Sonsuz Gece,Yakup Kaya,1980,325,Tarih
+77,Küçük Deniz,Leyla Bulut,2018,537,Bilim
+78,Kayıp Harita Sırrı,Kemal Yıldız,1974,799,Şiir
+79,Sessiz Nehir ve Sonrası,Elif Çetin,1971,244,Polisiye
+80,Karanlık Gölge,Ali Koç,1997,270,Bilim
+81,Uzak Bahçe Masalı,Orhan Demir,2003,364,Şiir
+82,Mavi Hikâye Masalı,Selim Yılmaz,1998,390,Tarih
+83,Gizli Gölge,Leyla Aydın,1971,262,Deneme
+84,Unutulmuş Kapı,Nazlı Yıldız,2024,100,Fantastik
+85,Son Rüzgar,Zeynep Kurt,1965,554,Roman
+86,Uzak Şehir,Mustafa Şahin,1962,886,Tarih
+87,Beyaz Gölge Sırrı,Yakup Kaya,2002,360,Bilim
+88,Mavi Harita,Emine Güneş,1992,283,Polisiye
+89,Gizli Yolculuk Masalı,Ahmet Aydın,2011,558,Biyografi
+90,Uzak Deniz ve Sonrası,Mehmet Arslan,2014,707,Deneme
+91,Kayıp Deniz ve Sonrası,Yakup Kurt,2012,158,Polisiye
+92,Karanlık Gece,Selim Taş,1964,830,Polisiye
+93,Küçük Gölge Masalı,Kemal Kılıç,1966,175,Bilim
+94,Karanlık Nehir Masalı,Orhan Kaya,1976,178,Deneme
+95,Yalnız Gölge,Nazlı Kılıç,1973,531,Tarih
+96,Mavi Deniz,Leyla Yıldız,2021,110,Roman
+97,Sonsuz Kapı Sırrı,Hasan Kurt,2025,853,Fantastik
+98,Yalnız Şehir Masalı,Emine Yılmaz,1987,627,Fantastik
+99,Derin Rüzgar,Yakup Güneş,1958,701,Biyografi
+100,Derin Zaman,Kemal Yıldız,1991,425,Roman
+101,Beyaz Bahçe Sırrı,Ali Yıldız,1972,705,Roman
+102,Kayıp Nehir,Orhan Polat,1996,603,Şiir
+103,Beyaz Şehir,Selim Kurt,1980,413,Roman
+104,Unutulmuş Şehir,Leyla Aslan,1981,674,Deneme
+105,Unutulmuş Gölge,Ali Güneş,1992,354,Biyografi
+106,Unutulmuş Rüzgar,Sevgi Özdemir,1974,129,Şiir
+107,Mavi Gece ve Sonrası,Kemal Arslan,1966,62,Şiir
+108,Sessiz Ada Masalı,Ayşe Şahin,1972,116,Polisiye
+109,Sonsuz Kapı,Leyla Kurt,1991,188,Biyografi
+110,Mavi Şehir,Nazlı Özdemir,1989,580,Bilim
+111,Kırık Ada,Mustafa Kaya,1967,709,Bilim
+112,Mavi Harita Sırrı,Mehmet Arslan,2023,476,Fantastik
+113,Unutulmuş Gece,Selim Taş,1997,868,Biyografi
+114,Küçük Ada Efsanesi,Ali Kılıç,2005,438,Polisiye
+115,Mavi Zaman ve Sonrası,Fatma Aslan,1983,268,Tarih
+116,Gizli Rüzgar Masalı,Melek Arslan,1980,687,Biyografi
+117,Mavi Rüzgar,Yakup Şahin,2002,158,Fantastik
+118,Unutulmuş Deniz ve Sonrası,Yakup Erdoğan,1989,398,Fantastik
+119,Sessiz Gece,Leyla Yıldız,2022,300,Tarih
+120,Unutulmuş Rüzgar Efsanesi,Kemal Kaya,2016,205,Şiir
+121,Eski Rüzgar ve Sonrası,Yakup Arslan,2020,627,Bilim
+122,Sessiz Deniz,Orhan Yıldız,1998,341,Şiir
+123,Kayıp Kapı,Kemal Aslan,1977,444,Biyografi
+124,Eski Hikâye,Hülya Doğan,1960,116,Roman
+125,Karanlık Hikâye,Elif Aslan,2002,246,Roman
+126,Yalnız Nehir,Nazlı Yılmaz,1992,102,Tarih
+127,Kırık Gece ve Sonrası,Mehmet Yılmaz,1963,192,Roman
+128,Beyaz Bahçe,Melek Arslan,1978,76,Bilim
+129,Son Hikâye Sırrı,Zeynep Güneş,1960,214,Şiir
+130,Sonsuz Gece Masalı,Sevgi Koç,2005,557,Polisiye
+131,Eski Hikâye Sırrı,Ayşe Arslan,2015,495,Tarih
+132,Kırık Harita ve Sonrası,Zeynep Demir,1981,602,Tarih
+133,Yalnız Gece,Mehmet Kaya,1980,604,Roman
+134,Sonsuz Yolculuk Sırrı,Hülya Özdemir,1990,371,Deneme
+135,Unutulmuş Gölge Efsanesi,Murat Bulut,1982,336,Biyografi
+136,Küçük Harita,Yakup Aslan,2022,727,Polisiye
+137,Son Gece Masalı,Melek Çetin,2010,198,Deneme
+138,Gizli Zaman Masalı,Sevgi Çetin,2018,842,Fantastik
+139,Karanlık Şehir,Ahmet Bulut,1986,625,Şiir
+140,Uzak Rüzgar,Ahmet Çelik,2001,286,Biyografi
+141,Sessiz Şehir Masalı,Hülya Çetin,2003,153,Tarih
+142,Eski Yolculuk,Melek Güneş,1994,233,Polisiye
+143,Son Mektup Sırrı,Sevgi Koç,2020,588,Roman
+144,Uzak Mektup ve Sonrası,Ali Erdoğan,1979,438,Tarih
+145,Unutulmuş Deniz,Orhan Kaya,2020,196,Biyografi
+146,Eski Bahçe Masalı,Murat Aydın,2000,896,Fantastik
+147,Uzak Dağ Efsanesi,Orhan Güneş,2002,281,Polisiye
+148,Eski Ada Sırrı,Sevgi Çelik,1977,426,Biyografi
+149,Küçük Ada Masalı,Fatma Polat,1987,100,Polisiye
+150,Sonsuz Kapı Günlükleri,Hülya Demir,1970,858,Fantastik
+151,Uzak Bahçe,Orhan Taş,1999,341,Biyografi
+152,Yalnız Yolculuk Masalı,Ahmet Çetin,1981,584,Fantastik
+153,Eski Ada,Murat Yılmaz,2015,432,Deneme
+154,Kayıp Bahçe,Ahmet Çetin,1976,640,Deneme
+155,Küçük Zaman,Kemal Çetin,1977,169,Roman
+156,Son Deniz Masalı,Kemal Çelik,1960,351,Tarih
+157,Kırık Harita,Mustafa Bulut,2001,485,Polisiye
+158,Son Mektup,Sevgi Polat,1972,725,Tarih
+159,Küçük Kapı Masalı,Emine Bulut,1988,867,Roman
+160,Yalnız Kapı,Orhan Bulut,2017,700,Şiir
+161,Yalnız Mektup Efsanesi,Leyla Bulut,2017,318,Fantastik
+162,Unutulmuş Zaman,Nazlı Erdoğan,1965,143,Roman
+163,Küçük Yolculuk,Selim Çelik,1993,325,Biyografi
+164,Eski Şehir ve Sonrası,Zeynep Polat,2016,661,Şiir
+165,Gizli Kapı Günlükleri,Selim Erdoğan,2022,636,Fantastik
+166,Sessiz Ada ve Sonrası,Zeynep Kılıç,2018,489,Şiir
+167,Uzak Rüzgar Günlükleri,Ahmet Doğan,2011,881,Roman
+168,Küçük Bahçe Masalı,Fatma Doğan,2025,303,Deneme
+169,Sonsuz Bahçe ve Sonrası,Melek Kaya,1995,672,Tarih
+170,Küçük Kapı Sırrı,Ahmet Arslan,2025,472,Deneme
+171,Uzak Dağ,Orhan Yıldız,1998,672,Tarih
+172,Kırık Şehir,Orhan Çelik,2023,883,Roman
+173,Unutulmuş Ada Efsanesi,Mustafa Doğan,1976,139,Şiir
+174,Mavi Nehir,Ayşe Aslan,2009,763,Deneme
+175,Küçük Hikâye,Sevgi Demir,1989,320,Tarih
+176,Derin Gece,Elif Güneş,1977,842,Biyografi
+177,Yalnız Şehir Efsanesi,Melek Arslan,2012,155,Roman
+178,Eski Bahçe Efsanesi,Sevgi Arslan,2008,603,Tarih
+179,Derin Yolculuk,Murat Erdoğan,1959,562,Şiir
+180,Derin Rüzgar Günlükleri,Selim Şahin,2014,516,Biyografi
+181,Karanlık Şehir Sırrı,Hasan Yıldız,2019,365,Bilim
+182,Uzak Yolculuk,Murat Aslan,1974,355,Şiir
+183,Derin Gölge Masalı,Emine Kaya,1970,276,Bilim
+184,Eski Nehir ve Sonrası,Yakup Aydın,2010,63,Deneme
+185,Küçük Yolculuk Efsanesi,Leyla Kurt,2005,798,Roman
+186,Küçük Zaman Efsanesi,Hülya Kurt,1960,680,Fantastik
+187,Gizli Yolculuk Sırrı,Yakup Aslan,1976,371,Polisiye
+188,Mavi Gölge,Ahmet Yıldız,2008,845,Polisiye
+189,Uzak Deniz Günlükleri,Mehmet Aslan,2020,799,Roman
+190,Yalnız Gece ve Sonrası,Selim Yıldız,1976,221,Polisiye
+191,Sonsuz Rüzgar,Melek Arslan,1989,899,Biyografi
+192,Eski Gece ve Sonrası,Nazlı Özdemir,2000,862,Tarih
+193,Mavi Gece Sırrı,Ahmet Doğan,2003,273,Roman
+194,Sessiz Bahçe ve Sonrası,Ayşe Bulut,1994,170,Bilim
+195,Gizli Gece ve Sonrası,Nazlı Kurt,1993,139,Fantastik
+196,Sonsuz Deniz,Hasan Doğan,2013,287,Fantastik
+197,Yalnız Gece Sırrı,Ahmet Kurt,1990,148,Roman
+198,Eski Gece,Hasan Taş,2025,560,Polisiye
+199,Uzak Kapı Sırrı,Emine Demir,1973,805,Deneme
+200,Derin Nehir,Fatma Yıldız,2013,592,Polisiye
+201,Son Deniz,Hülya Yılmaz,1983,741,Deneme
+202,Kırık Deniz,Nazlı Aslan,2021,411,Fantastik
+203,Kırık Mektup,Zeynep Bulut,1992,291,Şiir
+204,Mavi Kapı Günlükleri,Ayşe Aslan,2005,833,Polisiye
+205,Derin Hikâye,Leyla Kaya,2003,465,Deneme
+206,Küçük Şehir,Hasan Şahin,1984,309,Deneme
+207,Sessiz Şehir,Mustafa Kurt,2006,511,Roman
+208,Beyaz Gölge Efsanesi,Orhan Taş,1985,313,Deneme
+209,Sonsuz Harita,Ali Bulut,2017,97,Fantastik
+210,Uzak Nehir Günlükleri,Elif Taş,1990,718,Roman
+211,Yalnız Bahçe,Hasan Kurt,1990,741,Tarih
+212,Küçük Mektup Masalı,Hülya Çelik,2013,619,Şiir
+213,Mavi Kapı Sırrı,Zeynep Kurt,1980,680,Fantastik
+214,Derin Mektup Günlükleri,Zeynep Erdoğan,1972,431,Polisiye
+215,Uzak Kapı ve Sonrası,Ayşe Kılıç,2019,864,Şiir
+216,Eski Harita Günlükleri,Hasan Arslan,1968,382,Biyografi
+217,Küçük Gölge Günlükleri,Melek Güneş,1996,546,Biyografi
+218,Son Nehir,Leyla Kaya,2025,210,Şiir
+219,Gizli Rüzgar,Mustafa Erdoğan,2010,555,Bilim
+220,Kayıp Gece Günlükleri,Yakup Şahin,2022,88,Deneme
+221,Eski Dağ,Ali Çelik,1961,75,Şiir
+222,Unutulmuş Harita,Orhan Kılıç,1991,155,Fantastik
+223,Küçük Gece,Melek Arslan,2018,382,Roman
+224,Eski Rüzgar,Mustafa Erdoğan,2003,897,Fantastik
+225,Mavi Kapı,Sevgi Kaya,2020,106,Deneme
+226,Eski Nehir,Hasan Özdemir,1963,553,Fantastik
+227,Kayıp Deniz Efsanesi,Hülya Bulut,1993,838,Polisiye
+228,Uzak Mektup,Mehmet Yılmaz,2003,404,Bilim
+229,Küçük Gölge Sırrı,Ayşe Polat,2005,638,Fantastik
+230,Beyaz Nehir,Hülya Kurt,1990,571,Fantastik
+231,Kayıp Deniz,Elif Erdoğan,2000,876,Fantastik
+232,Son Kapı,Leyla Özdemir,2002,565,Roman
+233,Yalnız Ada,Mehmet Aydın,2021,145,Tarih
+234,Uzak Hikâye Masalı,Elif Yıldız,2014,327,Polisiye
+235,Gizli Hikâye Sırrı,Elif Bulut,2020,673,Fantastik
+236,Uzak Dağ Sırrı,Zeynep Güneş,2020,310,Bilim
+237,Uzak Hikâye ve Sonrası,Mehmet Çetin,2001,616,Fantastik
+238,Uzak Harita,Selim Şahin,1974,614,Fantastik
+239,Sessiz Hikâye Efsanesi,Selim Güneş,1961,490,Bilim
+240,Mavi Kapı Efsanesi,Mustafa Yılmaz,1993,799,Polisiye
+241,Kayıp Nehir Sırrı,Hülya Koç,1991,800,Polisiye
+242,Beyaz Gölge ve Sonrası,Mustafa Kaya,1997,470,Polisiye
+243,Mavi Ada Efsanesi,Mehmet Arslan,2011,140,Bilim
+244,Kayıp Mektup Sırrı,Mustafa Taş,1992,321,Biyografi
+245,Karanlık Nehir Efsanesi,Ali Kurt,1983,721,Deneme
+246,Son Gölge,Mehmet Erdoğan,1969,635,Bilim
+247,Derin Zaman Masalı,Sevgi Polat,2024,204,Polisiye
+248,Eski Harita,Mehmet Doğan,1971,479,Biyografi
+249,Yalnız Zaman Masalı,Zeynep Şahin,2018,459,Biyografi
+250,Karanlık Dağ,Orhan Şahin,2000,299,Biyografi
+251,Gizli Kapı,Hülya Çetin,2011,196,Roman
+252,Küçük Kapı ve Sonrası,Melek Şahin,1965,296,Deneme
+253,Mavi Rüzgar Efsanesi,Selim Kurt,1971,252,Tarih
+254,Gizli Nehir Efsanesi,Sevgi Polat,1992,469,Fantastik
+255,Yalnız Şehir,Ayşe Erdoğan,1991,623,Roman
+256,Yalnız Deniz Efsanesi,Hülya Şahin,2006,105,Fantastik
+257,Küçük Ada,Ayşe Koç,1981,886,Polisiye
+258,Beyaz Hikâye,Selim Koç,1999,392,Polisiye
+259,Son Gece,Hasan Erdoğan,1959,629,Bilim
+260,Sonsuz Şehir,Nazlı Demir,1992,295,Fantastik
+261,Uzak Ada Günlükleri,Mustafa Kurt,1998,564,Biyografi
+262,Yalnız Hikâye Efsanesi,Yakup Kurt,1978,884,Bilim
+263,Eski Gece Sırrı,Leyla Demir,2017,132,Polisiye
+264,Uzak Bahçe Günlükleri,Murat Polat,1978,174,Biyografi
+265,Uzak Hikâye,Mehmet Aydın,1990,816,Bilim
+266,Derin Harita,Orhan Kaya,1972,493,Tarih
+267,Karanlık Rüzgar,Elif Demir,2009,386,Roman
+268,Sonsuz Gece Günlükleri,Ali Bulut,2001,814,Biyografi
+269,Kırık Şehir Masalı,Mehmet Yıldız,1992,95,Biyografi
+270,Karanlık Harita,Ahmet Polat,1961,321,Biyografi
+271,Kayıp Ada,Selim Güneş,2017,843,Fantastik
+272,Sessiz Rüzgar,Melek Taş,1998,864,Deneme
+273,Eski Nehir Masalı,Emine Kılıç,1968,397,Bilim
+274,Mavi Bahçe,Ayşe Aydın,1980,712,Deneme
+275,Gizli Yolculuk,Ali Aydın,2011,134,Bilim
+276,Kırık Şehir Efsanesi,Hasan Taş,1994,247,Fantastik
+277,Uzak Gece,Selim Koç,2022,416,Polisiye
+278,Eski Ada Günlükleri,Zeynep Aslan,1967,862,Fantastik
+279,Derin Ada,Zeynep Özdemir,1996,357,Tarih
+280,Kırık Yolculuk Günlükleri,Murat Yılmaz,1990,306,Bilim
+281,Gizli Mektup,Ali Aydın,1989,682,Roman
+282,Eski Deniz ve Sonrası,Mustafa Koç,2013,432,Biyografi
+283,Kayıp Hikâye Masalı,Selim Kılıç,1985,66,Roman
+284,Eski Gölge Günlükleri,Nazlı Aydın,1971,139,Roman
+285,Eski Harita ve Sonrası,Mustafa Çelik,1965,626,Biyografi
+286,Gizli Deniz,Zeynep Demir,1981,338,Bilim
+287,Kırık Dağ Günlükleri,Elif Güneş,2016,436,Tarih
+288,Sessiz Nehir,Orhan Demir,2001,677,Tarih
+289,Son Hikâye ve Sonrası,Mehmet Yıldız,1967,549,Biyografi
+290,Yalnız Dağ,Nazlı Doğan,1969,657,Deneme
+291,Sonsuz Bahçe Günlükleri,Ali Bulut,1995,499,Fantastik
+292,Unutulmuş Dağ,Nazlı Güneş,2006,684,Bilim
+293,Sonsuz Ada ve Sonrası,Murat Aydın,1978,811,Şiir
+294,Kırık Zaman,Ahmet Özdemir,1978,819,Polisiye
+295,Eski Bahçe ve Sonrası,Melek Bulut,1961,588,Roman
+296,Derin Yolculuk Sırrı,Sevgi Bulut,1958,678,Bilim
+297,Yalnız Deniz,Ahmet Çetin,1996,110,Bilim
+298,Kırık Mektup Sırrı,Yakup Kurt,2023,635,Roman
+299,Eski Kapı ve Sonrası,Orhan Yılmaz,2019,203,Tarih
+300,Kırık Nehir Günlükleri,Leyla Özdemir,1977,273,Bilim
+301,Sessiz Şehir ve Sonrası,Ali Erdoğan,2020,692,Fantastik
+302,Kırık Bahçe,Selim Kaya,2006,98,Roman
+303,Kırık Dağ,Zeynep Kılıç,1967,101,Biyografi
+304,Karanlık Mektup Sırrı,Hasan Aslan,1993,706,Polisiye
+305,Uzak Kapı,Ahmet Arslan,1982,861,Fantastik
+306,Yalnız Harita,Emine Şahin,1968,305,Şiir
+307,Beyaz Gölge Günlükleri,Murat Şahin,2003,295,Roman
+308,Sessiz Yolculuk,Orhan Erdoğan,1960,608,Roman
+309,Kayıp Zaman,Hülya Özdemir,2021,259,Biyografi
+310,Son Şehir ve Sonrası,Hülya Koç,1979,87,Deneme
+311,Kayıp Zaman Masalı,Ayşe Güneş,1965,254,Biyografi
+312,Beyaz Mektup Sırrı,Ali Güneş,2022,866,Fantastik
+313,Kırık Gece Efsanesi,Emine Demir,2018,625,Şiir
+314,Unutulmuş Nehir Günlükleri,Nazlı Çetin,2021,282,Deneme
+315,Beyaz Rüzgar Efsanesi,Elif Polat,1994,390,Tarih
+316,Gizli Harita,Kemal Koç,2007,413,Roman
+317,Beyaz Yolculuk,Orhan Demir,2022,153,Tarih
+318,Mavi Harita ve Sonrası,Mustafa Kurt,1999,569,Biyografi
+319,Unutulmuş Nehir,Zeynep Kurt,1997,435,Polisiye
+320,Unutulmuş Bahçe,Hasan Özdemir,1988,535,Bilim
+321,Son Ada,Nazlı Aydın,2018,447,Deneme
+322,Eski Dağ Efsanesi,Selim Özdemir,2015,599,Tarih
+323,Son Dağ Günlükleri,Hülya Şahin,1993,450,Roman
+324,Uzak Gölge,Zeynep Kılıç,2020,495,Deneme
+325,Gizli Şehir ve Sonrası,Emine Demir,2006,578,Şiir
+326,Kırık Rüzgar,Fatma Kaya,2017,352,Bilim
+327,Kayıp Harita,Ahmet Taş,2019,398,Deneme
+328,Eski Kapı Efsanesi,Orhan Kılıç,2021,240,Şiir
+329,Derin Gölge,Hülya Aslan,1959,303,Bilim
+330,Uzak Kapı Efsanesi,Leyla Aslan,2010,747,Polisiye
+331,Mavi Mektup ve Sonrası,Fatma Erdoğan,1983,339,Tarih
+332,Gizli Dağ,Leyla Polat,1978,658,Polisiye
+333,Son Bahçe,Yakup Kaya,1966,708,Polisiye
+334,Beyaz Gece,Emine Erdoğan,1958,858,Fantastik
+335,Beyaz Ada,Sevgi Erdoğan,2004,423,Biyografi
+336,Yalnız Deniz Sırrı,Nazlı Kurt,2020,453,Roman
+337,Kırık Gölge,Hülya Koç,2024,139,Bilim
+338,Karanlık Yolculuk,Emine Aslan,1980,133,Bilim
+339,Yalnız Hikâye,Sevgi Demir,1987,237,Roman
+340,Kayıp Rüzgar,Zeynep Arslan,1985,511,Tarih
+341,Sonsuz Gölge,Kemal Çelik,1981,884,Tarih
+342,Son Yolculuk,Kemal Güneş,1997,612,Deneme
+343,Küçük Harita ve Sonrası,Ali Kurt,2001,373,Tarih
+344,Beyaz Deniz,Ayşe Aslan,2016,225,Tarih
+345,Derin Gölge Günlükleri,Hülya Bulut,1960,597,Deneme
+346,Mavi Dağ,Emine Güneş,2008,185,Biyografi
+347,Kayıp Mektup ve Sonrası,Selim Aydın,1970,265,Roman
+348,Gizli Nehir Sırrı,Yakup Yılmaz,1999,816,Roman
+349,Yalnız Şehir Sırrı,Mehmet Aslan,1960,74,Roman
+350,Gizli Dağ Efsanesi,Murat Özdemir,2003,187,Roman
+351,Kırık Gölge Sırrı,Hasan Çetin,1986,651,Şiir
+352,Karanlık Gölge Efsanesi,Zeynep Koç,1968,895,Polisiye
+353,Küçük Bahçe,Hülya Yılmaz,1968,388,Şiir
+354,Derin Rüzgar ve Sonrası,Kemal Demir,1985,481,Polisiye
+355,Mavi Deniz Masalı,Elif Çelik,2008,709,Tarih
+356,Derin Mektup,Fatma Aslan,1969,343,Polisiye
+357,Mavi Gölge Efsanesi,Mehmet Polat,1983,873,Deneme
+358,Küçük Ada Sırrı,Melek Arslan,2001,584,Şiir
+359,Kırık Dağ ve Sonrası,Emine Arslan,1972,860,Fantastik
+360,Uzak Yolculuk Sırrı,Sevgi Şahin,1960,744,Biyografi
+361,Sessiz Ada Günlükleri,Leyla Kılıç,1974,672,Tarih
+362,Kırık Mektup Efsanesi,Selim Kılıç,1999,126,Polisiye
+363,Uzak Şehir Masalı,Kemal Kılıç,2007,463,Roman
+364,Eski Zaman ve Sonrası,Leyla Çelik,1965,814,Fantastik
+365,Eski Mektup,Elif Bulut,1992,895,Tarih
+366,Yalnız Kapı Masalı,Hülya Yılmaz,2020,281,Biyografi
+367,Unutulmuş Dağ Sırrı,Nazlı Taş,1993,162,Tarih
+368,Karanlık Şehir Günlükleri,Mehmet Yıldız,2017,844,Bilim
+369,Karanlık Zaman,Ali Aslan,1982,729,Roman
+370,Unutulmuş Ada Sırrı,Orhan Yılmaz,1990,358,Tarih
+371,Sessiz Gölge,Nazlı Özdemir,1992,561,Roman
+372,Yalnız Harita Sırrı,Fatma Aslan,2014,610,Biyografi
+373,Beyaz Harita Sırrı,Hasan Şahin,2011,704,Polisiye
+374,Unutulmuş Nehir ve Sonrası,Ayşe Aslan,2025,826,Bilim
+375,Küçük Zaman Günlükleri,Ali Doğan,2002,496,Deneme
+376,Yalnız Dağ Efsanesi,Hasan Yıldız,1983,379,Tarih
+377,Mavi Dağ Günlükleri,Nazlı Çelik,1991,169,Biyografi
+378,Beyaz Harita ve Sonrası,Ayşe Taş,1994,654,Biyografi
+379,Yalnız Dağ Sırrı,Mehmet Doğan,1995,631,Polisiye
+380,Sonsuz Ada Sırrı,Fatma Özdemir,1960,541,Bilim
+381,Sessiz Bahçe,Zeynep Şahin,1967,253,Roman
+382,Unutulmuş Rüzgar Masalı,Fatma Şahin,1989,553,Fantastik
+383,Gizli Gece,Elif Demir,2018,797,Polisiye
+384,Eski Mektup Efsanesi,Murat Kurt,1983,221,Polisiye
+385,Kayıp Gölge Sırrı,Selim Çetin,2002,449,Şiir
+386,Mavi Dağ Sırrı,Ali Polat,1962,376,Tarih
+387,Mavi Zaman Masalı,Kemal Arslan,1967,892,Roman
+388,Unutulmuş Ada,Mustafa Kaya,1976,376,Deneme
+389,Beyaz Ada ve Sonrası,Ali Bulut,2009,891,Polisiye
+390,Kırık Yolculuk,Ayşe Kurt,1983,527,Şiir
+391,Kayıp Mektup,Zeynep Bulut,2016,552,Bilim
+392,Unutulmuş Mektup,Fatma Kurt,1984,117,Polisiye
+393,Gizli Gece Masalı,Hasan Güneş,2011,535,Biyografi
+394,Küçük Harita Günlükleri,Fatma Erdoğan,1960,145,Roman
+395,Derin Ada Efsanesi,Fatma Güneş,1993,189,Şiir
+396,Sonsuz Dağ,Ali Arslan,1980,432,Polisiye
+397,Sonsuz Şehir ve Sonrası,Kemal Yıldız,1987,229,Biyografi
+398,Yalnız Zaman,Elif Erdoğan,2004,255,Bilim
+399,Uzak Şehir Günlükleri,Kemal Kaya,2022,676,Tarih
+400,Unutulmuş Zaman Masalı,Sevgi Arslan,1988,859,Deneme
+401,Küçük Gece Sırrı,Orhan Şahin,1965,264,Tarih
+402,Sonsuz Hikâye,Yakup Doğan,1983,319,Polisiye
+403,Eski Şehir,Leyla Çetin,2010,185,Roman
+404,Uzak Dağ ve Sonrası,Emine Doğan,1978,614,Bilim
+405,Kırık Zaman Masalı,Orhan Bulut,2025,140,Biyografi
+406,Sonsuz Nehir,Selim Kurt,1996,787,Biyografi
+407,Beyaz Ada Sırrı,Nazlı Aslan,2002,141,Şiir
+408,Eski Zaman,Ali Taş,2005,897,Şiir
+409,Karanlık Zaman Masalı,Sevgi Kılıç,1994,215,Biyografi
+410,Unutulmuş Şehir Efsanesi,Ahmet Aslan,2000,727,Bilim
+411,Beyaz Mektup,Selim Demir,1989,254,Deneme
+412,Unutulmuş Rüzgar Sırrı,Hülya Aydın,2012,668,Deneme
+413,Unutulmuş Kapı Günlükleri,Melek Çetin,1971,865,Fantastik
+414,Kayıp Gece,Leyla Erdoğan,1990,716,Şiir
+415,Mavi Deniz Efsanesi,Selim Demir,2007,516,Bilim
+416,Gizli Harita Efsanesi,Emine Koç,1974,201,Polisiye
+417,Son Ada Efsanesi,Mehmet Kılıç,1975,96,Bilim
+418,Beyaz Nehir Efsanesi,Ayşe Çelik,2010,333,Tarih
+419,Yalnız Harita Günlükleri,Orhan Erdoğan,1996,627,Bilim
+420,Küçük Bahçe Günlükleri,Nazlı Çelik,1971,119,Tarih
+421,Eski Deniz,Mustafa Özdemir,1999,143,Şiir
+422,Beyaz Dağ ve Sonrası,Ahmet Çetin,2000,505,Polisiye
+423,Son Zaman ve Sonrası,Ali Taş,2005,94,Biyografi
+424,Uzak Deniz Efsanesi,Kemal Kılıç,1997,138,Tarih
+425,Eski Yolculuk Masalı,Kemal Çetin,2013,87,Roman
+426,Sessiz Ada Sırrı,Sevgi Kılıç,2023,854,Roman
+427,Son Gece Efsanesi,Kemal Koç,1989,479,Bilim
+428,Sonsuz Ada,Mustafa Aydın,1974,272,Roman
+429,Küçük Gece Günlükleri,Ahmet Çelik,1975,521,Deneme
+430,Karanlık Bahçe,Hasan Aslan,1970,92,Polisiye
+431,Beyaz Rüzgar,Yakup Koç,1984,869,Biyografi
+432,Sonsuz Yolculuk Masalı,Leyla Yılmaz,1993,727,Deneme
+433,Gizli Rüzgar Sırrı,Melek Koç,2014,522,Roman
+434,Kayıp Rüzgar Masalı,Ahmet Güneş,2016,247,Biyografi
+435,Kırık Nehir Efsanesi,Selim Kaya,1982,232,Tarih
+436,Eski Yolculuk ve Sonrası,Ahmet Kurt,1989,732,Bilim
+437,Mavi Mektup Masalı,Zeynep Polat,1958,708,Polisiye
+438,Küçük Gölge,Ahmet Demir,1962,710,Deneme
+439,Kayıp Bahçe ve Sonrası,Ayşe Çelik,2019,600,Bilim
+440,Gizli Şehir,Zeynep Yıldız,1961,274,Bilim
+441,Mavi Hikâye Günlükleri,Elif Yıldız,1967,202,Polisiye
+442,Beyaz Gölge,Nazlı Çetin,1999,782,Roman
+443,Eski Şehir Sırrı,Nazlı Arslan,1975,818,Şiir
+444,Kırık Rüzgar Masalı,Selim Demir,1981,762,Tarih
+445,Kayıp Ada Efsanesi,Mehmet Güneş,1985,170,Roman
+446,Mavi Nehir Efsanesi,Emine Polat,1983,654,Fantastik
+447,Son Şehir,Elif Arslan,2019,315,Fantastik
+448,Beyaz Kapı,Selim Aslan,1995,157,Roman
+449,Karanlık Harita Günlükleri,Orhan Çelik,2007,775,Polisiye
+450,Uzak Rüzgar Efsanesi,Kemal Erdoğan,2020,887,Deneme
+451,Küçük Kapı Efsanesi,Sevgi Arslan,1989,119,Polisiye
+452,Uzak Gölge Efsanesi,Fatma Kaya,1986,600,Deneme
+453,Sessiz Gölge Günlükleri,Leyla Yıldız,1991,621,Deneme
+454,Sessiz Hikâye Masalı,Sevgi Kılıç,2023,243,Tarih
+455,Sessiz Mektup,Melek Kaya,2008,502,Roman
+456,Eski Kapı,Yakup Yıldız,1988,471,Polisiye
+457,Karanlık Mektup Masalı,Mehmet Polat,1993,733,Tarih
+458,Kayıp Hikâye ve Sonrası,Mehmet Doğan,2010,556,Biyografi
+459,Yalnız Kapı ve Sonrası,Selim Aydın,1981,576,Polisiye
+460,Unutulmuş Hikâye Efsanesi,Zeynep Çelik,1965,495,Polisiye
+461,Gizli Bahçe Sırrı,Yakup Yıldız,2009,383,Fantastik
+462,Küçük Şehir ve Sonrası,Yakup Çetin,1985,862,Tarih
+463,Sessiz Yolculuk Günlükleri,Melek Şahin,1985,544,Fantastik
+464,Gizli Kapı Sırrı,Yakup Kaya,2021,274,Şiir
+465,Küçük Rüzgar ve Sonrası,Fatma Kaya,1976,164,Şiir
+466,Derin Şehir Sırrı,Nazlı Şahin,2018,214,Tarih
+467,Yalnız Rüzgar ve Sonrası,Ali Doğan,1983,260,Deneme
+468,Kayıp Yolculuk ve Sonrası,Ahmet Yıldız,1976,791,Biyografi
+469,Karanlık Mektup,Kemal Aslan,1999,328,Roman
+470,Yalnız Hikâye ve Sonrası,Leyla Bulut,1994,598,Roman
+471,Kayıp Dağ ve Sonrası,Yakup Yıldız,2003,897,Bilim
+472,Son Dağ,Selim Şahin,2000,720,Polisiye
+473,Kırık Ada ve Sonrası,Mustafa Doğan,1983,689,Biyografi
+474,Karanlık Hikâye Günlükleri,Melek Koç,1973,825,Roman
+475,Mavi Şehir Efsanesi,Ali Koç,1987,437,Deneme
+476,Kırık Hikâye,Hülya Arslan,2001,671,Fantastik
+477,Beyaz Yolculuk ve Sonrası,Hülya Özdemir,1963,341,Deneme
+478,Uzak Şehir Sırrı,Orhan Çelik,2008,247,Şiir
+479,Yalnız Harita ve Sonrası,Mehmet Erdoğan,2008,155,Deneme
+480,Beyaz Nehir Günlükleri,Zeynep Çetin,2008,720,Bilim
+481,Derin Hikâye Efsanesi,Selim Şahin,1996,248,Tarih
+482,Sonsuz Harita Sırrı,Kemal Koç,2002,397,Tarih
+483,Gizli Şehir Günlükleri,Hülya Bulut,1979,681,Bilim
