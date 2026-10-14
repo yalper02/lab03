@@ -1,62 +1,36 @@
 -- Tablo içeriklerini temizle
 TRUNCATE TABLE kayitlar, dersler, telefonlar, salonlar, egitmenler, uyeler RESTART IDENTITY CASCADE;
 
--- 1. Ana Tablo: uyeler
+-- 1. uyeler
 INSERT INTO uyeler (uye_id, ad)
-SELECT DISTINCT 
-    kitap_id AS uye_id, 
-    ad AS ad
-FROM kitaplar
-WHERE kitap_id IS NOT NULL;
+SELECT DISTINCT kitap_id, ad FROM kitaplar WHERE kitap_id IS NOT NULL;
 
--- 2. Ana Tablo: egitmenler
+-- 2. egitmenler
 INSERT INTO egitmenler (ad, brans)
-SELECT DISTINCT 
-    yazar AS ad,
-    tur AS brans
-FROM kitaplar
-WHERE yazar IS NOT NULL;
+SELECT DISTINCT yazar, tur FROM kitaplar WHERE yazar IS NOT NULL;
 
--- 3. Ana Tablo: salonlar
+-- 3. salonlar
 INSERT INTO salonlar (ad, kapasite)
-SELECT DISTINCT 
-    'Salon ' || (sayfa % 10 + 1) AS ad,
-    (sayfa % 50 + 20) AS kapasite
-FROM kitaplar
-WHERE sayfa IS NOT NULL;
+SELECT DISTINCT 'Salon ' || (sayfa % 10 + 1), (sayfa % 50 + 20) FROM kitaplar WHERE sayfa IS NOT NULL;
 
--- 4. Bağımlı Tablo: telefonlar (Unnest tekniği ile üye başına teke indirilip aktarılır)
+-- 4. telefonlar
 INSERT INTO telefonlar (uye_id, numara)
-WITH benzersiz_uyeler AS (
-    SELECT DISTINCT 
-        kitap_id AS uye_id,
-        yayin_yili::text AS telefon_str
-    FROM kitaplar
-    WHERE kitap_id IS NOT NULL AND yayin_yili IS NOT NULL
-)
-SELECT 
-    uye_id,
-    TRIM(numara) AS numara
-FROM benzersiz_uyeler,
-UNNEST(string_to_array(telefon_str, ',')) AS numara
-WHERE TRIM(numara) <> '';
+SELECT DISTINCT kitap_id, yayin_yili::text FROM kitaplar WHERE kitap_id IS NOT NULL AND yayin_yili IS NOT NULL;
 
--- 5. Bağımlı Tablo: dersler (MIN ucret kuralı ve JOIN ile SERIAL ID çekimi)
+-- 5. dersler (Her benzersiz kitap adı için 1 ders kaydı ve MIN sayfa/ücret)
 INSERT INTO dersler (ders_id, ad, egitmen_id, salon_id, ucret)
 SELECT 
     MIN(k.kitap_id) AS ders_id,
-    k.ad AS ad,
-    e.egitmen_id,
-    s.salon_id,
-    MIN(k.sayfa) AS ucret -- En düşük ücret / sayfa kuralı
+    k.ad,
+    (SELECT e.egitmen_id FROM egitmenler e WHERE e.ad = k.yazar LIMIT 1) AS egitmen_id,
+    (SELECT s.salon_id FROM salonlar s WHERE s.ad = 'Salon ' || (MIN(k.sayfa) % 10 + 1) LIMIT 1) AS salon_id,
+    MIN(k.sayfa) AS ucret
 FROM kitaplar k
-LEFT JOIN egitmenler e ON k.yazar = e.ad
-LEFT JOIN salonlar s ON ('Salon ' || (k.sayfa % 10 + 1)) = s.ad
-GROUP BY k.ad, e.egitmen_id, s.salon_id;
+GROUP BY k.ad, k.yazar;
 
--- 6. Bağımlı Tablo: kayitlar
+-- 6. kayitlar (Düz tablodaki 483 satırı doğrudan doğruya ilgili derse bağlama)
 INSERT INTO kayitlar (uye_id, ders_id, tarih)
-SELECT DISTINCT
+SELECT 
     k.kitap_id AS uye_id,
     d.ders_id,
     CURRENT_DATE - (k.yayin_yili % 365) * INTERVAL '1 day' AS tarih

@@ -1,0 +1,8 @@
+duz_tablo_satir_sayisi | kayitlar_satir_sayisi
+------------------------+-----------------------
+                    483 |                   483
+
+UPDATE 6
+UPDATE 1
+
+Düz veritabanı yapısında bir eğitmenin adını değiştirmek için eğitmenin geçtiği tüm satırlar (6 satır) güncellenmiştir. Normalize edilmiş 3NF yapısında ise eğitmen bilgisi 'egitmenler' tablosunda tekil olarak tutulduğu için sadece 1 satır (UPDATE 1) güncellenmiştir.
